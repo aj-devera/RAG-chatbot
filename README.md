@@ -1,4 +1,4 @@
-## Take-Home Exam from Thinking Machines - Machine Learning Engineer (GenAI Track)
+## Question and Answering Chatbot
 This chatbot uses the documents uploaded by the user and use it as the knowledge base of the Large Language Model (LLM). With this, the response given by the chatbot is contextualize based on the given information. It provides accurate answers to questions that are included in the documents.
 
 In this code, the documents were stored into embeddings inside the FAISS vector database. With Langchain, the process of Retrieval-Augmented Generation (RAG) was implemented wherein the LLM retrieves the context and information from the vector database, augments this information into the LLM, and generates the response with the specific context. 

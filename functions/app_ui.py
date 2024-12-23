@@ -9,7 +9,7 @@ class AppUI:
             page_title="Multi-Document Q&A Chatbot", 
             page_icon="📰"
         )
-        st.title("Thinking Machines - Multi-Document Q&A Chatbot")
+        st.title("Multi-Document Q&A Chatbot")
 
         st.sidebar.header("⚙️ Configuration")
     
